@@ -1,0 +1,22 @@
+singing_rap 1~10(좋아요 순)
+1.RING RING(Sik-K Feat.개코)
+2.gold(offonoff Feat.Dean)
+3.트루먼 쇼(Truman Show) (YunB, Young B)
+4.GOTT(Simon Dominic Feat.MOON,우원재,Jvcki Wai)
+5.Y(FANXYCHILD Feat.지코 (Zico),DEAN,페노메코 (PENOMECO),Crush)
+6.BOOL(PH-1 Feat.Beenzino)
+7.Color Drive(DPR CREAM)
+8.백조의 호수(z100zo)(ZENE THE ZILLA,Woodie Gochild)
+9.esperanza(Hash Swan,dkash,Y1ee)
+10.Malibu(DinDin Feat.GRAY)
+
+RING_RING
+gold
+truman_show
+GOTT
+Y
+BOOL
+color_drive
+z100zo
+esperanza
+malibu

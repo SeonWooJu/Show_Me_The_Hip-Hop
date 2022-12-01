@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    background-image: url('../img/main_image2.jpg');
+    background-attachment: fixed;
+
+}
+
+.main_logo {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 700px;
+}
+
+.main {
+    background-image: url('../img/main_image1.jpg');
+    text-align: center;
+    opacity: 0.9;
+    width: 1903px;
+}
+
+.content {
+    background-image: url('../img/translucent.png');
+    height: 930px;
+    width: 1903px;
+}
+
+.content_3 {
+    background-image: url('../img/translucent.png');
+    height: 980px;
+    width: 1903px;
+}
+
+.content_4 {
+    background-image: url('../img/translucent.png');
+    height: 1400px;
+    width: 1903px;
+}
+
+.content_5 {
+    background-image: url('../img/translucent.png');
+    height: 1210px;
+    width: 1903px;
+}
+
+.content_box1 {
+    width: 1690px;
+    height: 400px;
+    padding: 30px;
+    margin: auto;
+}
+
+.content_box2 {
+    width: 800px;
+    height: 400px;
+    display: inline-block;
+    margin: 0px 20px;
+    float: left;
+}
+
+.content_box2_3 {
+    width: 1714px;
+    height: 400px;
+    display: inline-block;
+    margin: 0px 4.9%;
+    float: left;
+}
+
+.content_box2_4 {
+    width: 800px;
+    height: 320px;
+    display: inline-block;
+    margin: 0px 20px;
+    float: left;
+}
+
+.content_box2_5 {
+    width: 1851px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.content_box3 {
+    margin: 10px auto;
+    width: 732px;
+}
+
+.content_box4 {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    text-align: center;
+}
+
+.content_box4_4_1 {
+    display: inline-block;
+    margin: 0 20px;
+    float: left;
+    width: 300px;
+    height: 300px;
+}
+
+.content_box4_4_2 {
+    display: inline-block;
+    color: white;
+}
+
+.content_box4_4_2_text{
+    text-decoration: none;
+    color: white;
+}
+
+.content_box4_2 {
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    text-align: center;
+}
+
+.content_box4:active {
+    opacity: 0.5;
+}
+
+.content_h {
+    color: white;
+    margin: 0;
+}
+
+.content_h_1 {
+    color: white;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+
+.content_img {
+    width: 220px;
+}
+
+.content_img_1 {
+    width: 160px;
+}
+
+.content_img_4 {
+    width: 300px;
+}
+
+.footer {
+    background-color: #111;
+    width: 1903px;
+    height: 200px;
+    text-align: center;
+}
+
+.footer_text1 {
+    font-size: 20px;
+    margin: 0;
+    color: white;
+    padding: 20px;
+}
+
+.footer_text2 {
+    font-size: 13px;
+    margin: 5px;
+    color: white;
+}
+
+.footer_link {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_logo {
+    width: 30px;
+    margin: 10px;
+}
+
+.main_text {
+    margin-top: 100px;
+}
+
+.text_1 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text_2 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main_button {
+    margin-top: 40px;
+}
+
+.button_1 {
+    margin: 0 auto;
+}
+
+.button_2 {
+    font-weight: bold;
+    background: black;
+    color: #fff;
+    opacity: 0.6;
+    border: none;
+    position: relative;
+    width: 300px;
+    height: 110px;
+    font-size: 1.6em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+}
+
+.button_2:hover {
+    background: black;
+    color: black;
+}
+
+.button_2:before,
+.button_2:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #1AAB8A;
+    transition: 400ms ease all;
+}
+
+.button_2:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+.button_2:hover:before,
+.button_2:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.menu {
+    opacity: 0.94;
+    width: 1903px;
+    height: 60px;
+    background-color: black;
+}
+
+.menu_logo {
+    float: left;
+    padding: 10px;
+    margin-left: 150px;
+    width: 270px;
+}
+
+.menus {
+    float: right;
+    margin-right: 150px;
+}
+
+.menu_li {
+    display: inline;
+}
+
+.menu_link {
+    text-decoration: none;
+    color: white;
+    padding: 18px 30px;
+}
+
+.menu_link:hover {
+    opacity: 0.5;
+}
+
+.menu_link1 {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 18px 30px;
+}
+
+.text_color {
+    color: white;
+}
+
+.size {
+    width: 1010px;
+    height: 568px;
+}

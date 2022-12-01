@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Show Me The Hip-Hop</title>
+    <link rel="stylesheet" type="text/css" href="css/show.css">
+    <audioscript>
+        <audio id="good_day" src="audio/good_day.mp3"></audio>
+        <audio id="wu" src="audio/wu.mp3"></audio>
+        <audio id="ringring" src="audio/ringring.mp3"></audio>
+        <audio id="candle" src="audio/candle.mp3"></audio>
+        <audio id="swoosh_flow" src="audio/swoosh_flow.mp3"></audio>
+        <audio id="summer_hate" src="audio/summer_hate.mp3"></audio>
+        <audio id="bition_way" src="audio/bition_way.mp3"></audio>
+        <audio id="trash" src="audio/trash.mp3"></audio>
+        <audio id="woo_wee" src="audio/woo_wee.mp3"></audio>
+        <script type="text/javascript">
+            function good_day() {
+                var good_day = document.getElementById('good_day');
+                if (good_day.paused) {
+                    good_day.play();
+                } else {
+                    good_day.pause();
+                    good_day.currentTime = 0
+                }
+                good_day.volume = 0.07;
+            }
+
+            function wu() {
+                var wu = document.getElementById('wu');
+                if (wu.paused) {
+                    wu.play();
+                } else {
+                    wu.pause();
+                    wu.currentTime = 0
+                }
+                wu.volume = 0.07;
+            }
+
+            function ringring() {
+                var ringring = document.getElementById('ringring');
+                if (ringring.paused) {
+                    ringring.play();
+                } else {
+                    ringring.pause();
+                    ringring.currentTime = 0
+                }
+                ringring.volume = 0.07;
+            }
+
+            function candle() {
+                var candle = document.getElementById('candle');
+                if (candle.paused) {
+                    candle.play();
+                } else {
+                    candle.pause();
+                    candle.currentTime = 0
+                }
+                candle.volume = 0.07;
+            }
+
+            function swoosh_flow() {
+                var swoosh_flow = document.getElementById('swoosh_flow');
+                if (swoosh_flow.paused) {
+                    swoosh_flow.play();
+                } else {
+                    swoosh_flow.pause();
+                    swoosh_flow.currentTime = 0
+                }
+                swoosh_flow.volume = 0.07;
+            }
+
+            function summer_hate() {
+                var summer_hate = document.getElementById('summer_hate');
+                if (summer_hate.paused) {
+                    summer_hate.play();
+                } else {
+                    summer_hate.pause();
+                    summer_hate.currentTime = 0
+                }
+                summer_hate.volume = 0.07;
+            }
+
+            function bition_way() {
+                var bition_way = document.getElementById('bition_way');
+                if (bition_way.paused) {
+                    bition_way.play();
+                } else {
+                    bition_way.pause();
+                    bition_way.currentTime = 0
+                }
+                bition_way.volume = 0.07;
+            }
+
+            function trash() {
+                var trash = document.getElementById('trash');
+                if (trash.paused) {
+                    trash.play();
+                } else {
+                    trash.pause();
+                    trash.currentTime = 0
+                }
+                trash.volume = 0.07;
+            }
+
+            function woo_wee() {
+                var woo_wee = document.getElementById('woo_wee');
+                if (woo_wee.paused) {
+                    woo_wee.play();
+                } else {
+                    woo_wee.pause();
+                    woo_wee.currentTime = 0
+                }
+                woo_wee.volume = 0.07;
+            }
+        </script>
+    </audioscript>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main_logo">
+            <img src="img/main_logo.png" alt="main_logo" class="main_logo">
+        </div>
+        <div class="main_button">
+            <a href="#menu"><button class="button_2" type="submit" value="login">GO MAIN</button></a>
+        </div>
+        <div class="main_text">
+            <p class="text_1">선우주 X 박성혁 X 이경민</p>
+            <p class="text_2">분당경영고등학교</p>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    <nav class="menu">
+        <a href="index.html#menu" name="menu"><img src="img/memu_logo.png" alt="menu_logo" class="menu_logo"></a>
+        <nav class="menus">
+            <ul>
+                <li class="menu_li"><strong><a class="menu_link" href="sub_1.html#menu">노래 순위</a></strong></li>
+                <li class="menu_li"><strong><a class="menu_link" href="sub_2.html#menu">레이블</a></strong></li>
+                <li class="menu_li"><strong><a class="menu_link" href="sub_3.html#menu">그래피티 작품</a></strong></li>
+                <li class="menu_li"><strong><a class="menu_link" href="sub_4.html#menu">아티스트</a></strong></li>
+                <li class="menu_li"><strong><a class="menu_link" href="sub_5.html#menu">장르별</a></strong></li>
+            </ul>
+        </nav>
+    </nav>
+    <div class="content">
+        <div class="content_box1">
+            <div class="content_box2">
+                <h2 class="content_h">Top 3</h2>
+                <div class="content_box3">
+                    <div class="content_box4" onclick="good_day()">
+                        <img class="content_img" src="img/good_day.png" alt="good_day">
+                        <p>
+                            <strong>Good Day</strong><br>
+                            <br>
+                            pH-1, Kid Milli, 루피 (Loopy),<br>
+                            팔로알토 (Paloalto)
+                            <br>
+                        </p>
+                    </div>
+                    <div class="content_box4" onclick="wu()">
+                        <img class="content_img" src="img/wu.png" alt="wu">
+                        <p>
+                            <strong>Wu</strong><br>
+                            <br>
+                            nafla
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                    <div class="content_box4" onclick="ringring()">
+                        <img class="content_img" src="img/ringring.png" alt="ringring">
+                        <p>
+                            <strong>RING RING</strong><br>
+                            <br>
+                            식케이 (Sik-K), 개코
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="content_box2">
+                <h2 class="content_h">Artist</h2>
+                <div class="content_box3">
+                    <div class="content_box4" onclick="candle()">
+                        <img class="content_img" src="img/BLOO.png" alt="BLOO">
+                        <p>
+                            <strong>블루 (BLOO)</strong><br>
+                            <br>
+                            캔들 (Candle)
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                    <div class="content_box4" onclick="swoosh_flow()">
+                        <img class="content_img" src="img/CHANG_MO.png" alt="CHANG_MO">
+                        <p>
+                            <strong>창모 (CHANGMO)</strong><br>
+                            <br>
+                            BIPOLAR
+                            <br>
+                            Swoosh Flow
+                            <br>
+                        </p>
+                    </div>
+                    <div class="content_box4" onclick="summer_hate()">
+                        <img class="content_img" src="img/ZICO.png" alt="ZICO">
+                        <p>
+                            <strong>지코 (ZICO)</strong><br>
+                            <br>
+                            RANDOM BOX
+                            <br>
+                            Summer Hate (Feat. 비)
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content_box1">
+            <div class="content_box2">
+                <h2 class="content_h">Label</h2>
+                <div class="content_box3">
+                    <div class="content_box4" onclick="bition_way()">
+                        <img class="content_img" src="img/ambition.png" alt="ambition">
+                        <p>
+                            <strong>AMBITION MUSIK</strong><br>
+                            <br>
+                            BITION WAY
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                    <div class="content_box4" onclick="trash()">
+                        <img class="content_img" src="img/indigo.png" alt="indigo">
+                        <p>
+                            <strong>Indigo music</strong><br>
+                            <br>
+                            쓰레기
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                    <div class="content_box4" onclick="woo_wee()">
+                        <img class="content_img" src="img/mkit_rain.png" alt="mkit_rain">
+                        <p>
+                            <strong>MKIT RAIN</strong><br>
+                            <br>
+                            우위 (Woo Wee)
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="content_box2">
+                <h2 class="content_h">Graffiti</h2>
+                <br>
+                <br>
+                <div class="<content></content>_box3">
+                    <div class="content_box4_2">
+                        <img class="content_img" src="img/rake43.png" alt="rake43">
+                        <p>
+                            <strong>Rake43</strong><br>
+                            <br>
+                            <div>
+                                <a href="https://www.instagram.com/rake43/" target="_blank"><img class="footer_logo" src="img/logo_instagram.png" alt="instagram"></a>
+                                <a href="https://www.youtube.com/channel/UCHw_BQ5vhtq6JYg-u_1KNkQ" target="_blank"><img class="footer_logo" src="img/logo_youtube.png" alt="youtube"></a>
+                            </div>
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                    <div class="content_box4_2">
+                        <img class="content_img" src="img/wezt.png" alt="indigo">
+                        <p>
+                            <strong>위제트 WEZT ONE</strong><br>
+                            <br>
+                            <div>
+                                <a href="https://www.instagram.com/wezt.one/" target="_blank"><img class="footer_logo" src="img/logo_instagram.png" alt="instagram"></a>
+                                <a href="https://www.youtube.com/user/wezt111" target="_blank"><img class="footer_logo" src="img/logo_youtube.png" alt="youtube"></a>
+                            </div>
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                    <div class="content_box4_2">
+                        <img class="content_img" src="img/ghost_ea.png" alt="ghost_ea">
+                        <p>
+                            <strong>GHOST EA</strong><br>
+                            <br>
+                            <div>
+                                <a href="https://www.instagram.com/ghost_ea_graffiti/" target="_blank"><img class="footer_logo" src="img/logo_instagram.png" alt="instagram"></a>
+                                <a href="https://www.youtube.com/channel/UCEI5fxpnLgXSBggbaWRaEig" target="_blank"><img class="footer_logo" src="img/logo_youtube.png" alt="youtube"></a>
+                            </div>
+                            <br>
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="footer_text1"><strong>Show Me The bogil</strong> X <strong><a class="footer_link" href="http://www.bundang-mgt.hs.kr/" target="_blank">분당경영고</a></strong></p>
+            <div>
+                <a href="https://www.facebook.com/" target="_blank"><img class="footer_logo" src="img/logo_facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="footer_logo" src="img/logo_instagram.png" alt="instagram"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img class="footer_logo" src="img/logo_youtube.png" alt="youtube"></a>
+            </div>
+            <p class="footer_text2">contact : <strong>tjsdnwn21104@gmail.com</strong></p>
+            <p class="footer_text2"><strong>Copyright © 2020 Show Me The bogil x 분당경영고. All Right Reserved.</strong></p>
+        </div>
+</body></html>

@@ -1,0 +1,22 @@
+trap 1~10(좋아요 순)
+1.Good Day(loopy, PH-1, Kidmilli Feat.팔로알토)
+2.Selfmade Orange(창모 Feat.SUPER BEE)
+3.가라사대(BeWhy)
+4.아퍼(I'mSick)(Giriboy Feat.kidmilli, lil tachi, 김승민, NO:EL, CJAMM)
+5.트로트랩(trotrap)(SUPER BEE,UNEDUCATED KID,twlv,Yuzion)
+6.뻔하잖아(You Know)(박재범 Feat.Okasian)
+7.Damn!(NO:EL Feat.Black Nut)
+8.Shit Is Real(스윙스(Swings) Feat. The Quiett, Giri boy, kid milli)
+9.Future Flame(Dok2)
+10.WeChat(Higher Brothers Feat.Keith ape)
+
+good_day
+selfmade_orange
+GOTTASADAE
+im_sick
+trotrap
+you_know
+damn
+shit_is_real
+future_flame
+wechat
